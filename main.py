@@ -4,6 +4,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import *
 from time import sleep as s
+import os
+os.system("pip install chromedriver-binary")
+
 # -----------------------Configurações_do_bot------------------------#
 # caminho para executar navegadores baseados no Google Chrome, para funionar o path deve ser atualizado na varaiavel brave_path.
 # brave_path = "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe"
