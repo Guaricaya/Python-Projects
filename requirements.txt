@@ -1,0 +1,4 @@
+pandas==1.5.2
+selenium==4.7.2
+pipreqs==0.4.11
+pathlib==1.0.1
