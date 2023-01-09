@@ -27,7 +27,7 @@ driver.find_element(By.CLASS_NAME, 'gb_d').click()
 print(driver.find_element(By.PARTIAL_LINK_TEXT, 'Fazer').text)
 # Clica procurando um texto entre links
 driver.find_element(By.PARTIAL_LINK_TEXT, 'Fazer').click()
-email = "rafaelbarros240@gmail.com"
+email = "rafaelbarros"
 s(1)
 driver.find_element(By.NAME, "identifier").send_keys(email)
 s(2)
