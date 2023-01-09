@@ -8,7 +8,7 @@ from time import sleep as s
 # caminho para executar navegadores baseados no Google Chrome, para funionar o path deve ser atualizado na varaiavel brave_path.
 # brave_path = "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe"
 option = Options()
-# option.headless = True  # Opera em segundo plano o valor defualt opera em primeiro plano
+option.headless = True  # Opera em segundo plano o valor defualt opera em primeiro plano
 # Caso queira entrar normalmente pelo chrome basta comentar essa linha
 # option.binary_location = brave_path
 driver = webdriver.Chrome(options=option)
